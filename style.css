@@ -15,3 +15,169 @@ html {
 body {
   overflow-x: hidden;
 }
+
+.diffrent {
+  display: none;
+}
+
+.container {
+  max-width: 1080px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  height: 100vh;
+}
+
+.color {
+  color: #635bff;
+}
+
+#gradient-canvas {
+  --gradient-color-1: #6ec3f4;
+  --gradient-color-2: #3a3aff;
+  --gradient-color-3: #ff61ab;
+  --gradient-color-4: #e63946;
+  --gradient-color-5: #fbc531;
+  height: 60vh;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -99999;
+}
+
+nav {
+  padding: 1.5rem 0;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+}
+
+.nav-right ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-right ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 1.5rem;
+  transition: 0.3s;
+}
+
+.nav-right ul a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-right .sign-up a {
+  font-size: 1.7rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 0.6rem 1.6rem;
+  border-radius: 100px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-right .sign-up:hover a {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.nav-right .sign-up img,
+.hero-links a img,
+.start-info .removebg {
+  transition: 0.2s;
+}
+
+.hero-links a:hover img,
+.nav-right .sign-up:hover img,
+.start-info a:hover .removebg {
+  transform: translateX(6px);
+}
+
+.hero-section {
+  margin-top: 16rem;
+}
+
+.hero-section .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-left {
+  width: 54%;
+}
+
+.hero-right {
+  width: 44%;
+}
+
+.hero-left h1 {
+  font-size: 8.2rem;
+  color: #111439;
+  mix-blend-mode: color-burn;
+}
+
+.hero-left P {
+  margin-top: 4rem;
+  font-size: 1.8rem;
+  color: #444;
+  line-height: 2.8rem;
+}
+
+.hero-links {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.hero-links a {
+  color: #111439;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 2rem;
+  border-radius: 100px;
+}
+
+.hero-links a img {
+  margin: 0 !important;
+}
+
+.hero-links :first-child {
+  background: #111439;
+  color: #fff;
+  margin-right: 2rem;
+}
+
+.hero-right img {
+  width: 100%;
+  transform: scale(1.2) translateX(00px);
+}
