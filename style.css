@@ -181,3 +181,43 @@ nav .container {
   width: 100%;
   transform: scale(1.2) translateX(00px);
 }
+
+/* SECTION: past work */
+
+.past-work {
+  margin: 12rem 0;
+}
+
+.wor-row {
+  width: 980px !important;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.work-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.work {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.work:hover {
+  transform: translateY(-8px);
+}
+
+.work img {
+  height: 25px;
+  margin-right: 0.8rem;
+}
+
+.work h1 {
+  font-size: 1.8rem;
+}
