@@ -1,6 +1,15 @@
-# Logify website
+# Logify Landing Page
 
--- this is the website i built for my first client, check it live [here](https://logify.pw/) <br>
--- I did some freelancing in truelancer.com and he need a website looking like [stripe.com](https://stripe.com/)<br>
+<img width='500px' src='https://github.com/ParallelXL/logify-website/assets/134038947/8089586d-d2d9-4803-a422-359cd3739410' />
 
-See my all other project or have a chat at [my portfolio](https://ayannagori.netlify.app/)
+<h2>Check this website live <a href='https://minimal-bankist.netlify.app' target="_blank">HERE</a></h2>
+
+I made this website for my first freelance client who wanted a landing page similar to stripe.com <br>
+I learnt many new CSS things like clip path for those slanted backgrounds and that gradient in hero section.
+
+
+<br><br>
+<h2> Wanna see 👀 my other projects❓📖
+<h4>Visit new react portfolio -- <a href='https://parallelxl.netlify.app/' target="_blank">HERE</a></h4>
+<h4>New portfolio github repo -- <a href='https://parallelxl.netlify.app/' target="_blank">HERE</a></h4>
+
