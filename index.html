@@ -15,10 +15,98 @@
     <!-- For css -->
     <link rel="stylesheet" href="style.css" />
 
-    <title>Stripe Homepage</title>
+    <title>Logify</title>
   </head>
-
   <body>
+    <canvas id="gradient-canvas"></canvas>
+
+    <header>
+      <nav>
+        <div class="container">
+          <div class="logo">
+            <img src="./resourses/logify-logo-white.png" alt="" />
+          </div>
+          <div class="nav-right">
+            <ul>
+              <li><a href="#" target="_blank">Products</a></li>
+              <li><a href="#" target="_blank">Use Cases</a></li>
+              <li><a href="#" target="_blank">Developers</a></li>
+              <li><a href="#" target="_blank">Company</a></li>
+              <li><a href="#" target="_blank">Pricing</a></li>
+            </ul>
+            <div class="sign-up">
+              <a href=""
+                >Sign in
+                <img src="./resourses/chevron_right_white_24dp.svg" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="menu" id="menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero-section">
+        <div class="container">
+          <div class="hero-left">
+            <h1>Access & Identity layer for the internet</h1>
+            <p>
+              For businesses of all sizes—from startups to large
+              enterprises—Access control and Identity Layer to show
+              correctinformation to customers, employees and contractors.
+            </p>
+            <div class="hero-links">
+              <a href=""
+                >Start now
+                <img src="./resourses/chevron_right_white_24dp.svg" alt=""
+              /></a>
+              <a href=""
+                >Contact details
+                <img
+                  class="removebg"
+                  src="./resourses/chevron_right_black_24dp.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="hero-right">
+            <img src="./resourses/hero-image.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="past-work">
+      <div class="work-row">
+        <div class="wor-row">
+          <div class="work-row">
+            <div class="work">
+              <img src="./resourses/lastdates-logo.png" />
+              <h1>Lastdate</h1>
+            </div>
+            <div class="work">
+              <img src="./resourses/MentHub.png" />
+              <h1>Menthub</h1>
+            </div>
+          </div>
+          <div class="work-row">
+            <div class="work">
+              <img src="./resourses/verifyD.png" />
+              <h1>VerifyD</h1>
+            </div>
+
+            <div class="work">
+              <img src="./resourses/freetest.png" />
+              <h1>Freetest</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="about">
       <div class="about-row container">
         <div class="about-col">
@@ -277,6 +365,7 @@
         </div>
       </div>
     </footer>
+
     <script>
       var gradient = new Gradient();
       gradient.initGradient("#gradient-canvas");
